@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web para el proyecto de practicas de HTML de la academia ConquerBlocks">
+    <meta name="author" content="Kigaldev">
+    <meta name="keywords" content="practicas, html, formularios, enlaces, etiquetas">
+    <title>Web Prácticas HTML Master FullStack</title>
+</head>
+<body>
+    <!-- Encabezado principal del sitio -->
+    <header>
+        <div class="logo">
+            <img src="/images/logo-conquerblocks-color.png" alt="Logo ConquerBlocks" size="1x">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nosotros.html">Quienes Somos</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                    <ul>
+                        <li><a href="curso1.html">Curso 1</a></li>
+                        <li><a href="curso2.html">Curso 2</a></li>
+                    </ul>
+                <li><a href="blog.html">Blog</a></li>
+                    <ul>
+                        <li><a href="blog1.html">Noticia 1</a></li>
+                        <li><a href="blog2.html">Noticia 2</a></li>
+                    </ul>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal del sitio -->
+    <main>
+        <!-- Sección con imagen y texto describiendo el objetivo de la pagina-->
+        <section id="inicio">
+            <h1>Bienvenido a ConquerBlocks</h1>
+            <div>
+                <img src="/images/home.webp" 
+                    width="500"
+                    alt="Encuentra una nueva forma de aprender y diseñar un nuevo futuro">
+            </div>
+            <div>
+                <p>En esta web podrás conocer todas las herramientas que tendras a tu disposicion para crear un nuevo futuro</p>
+            </div> 
+        </section>
+
+
+ <!-- Sección con resumen de quienes somos y enlace a la seccion correspondiente-->
+        <section id="resumen">
+            <h2>Cónoce al equipo de ConquerBlocks</h2>
+            <article>
+                <h3>Alexis Bautista</h3>
+                <img src="/images/alexis.jpg" widht="100" height="100" >
+                <p>Es el fundador y CEO de ConquerX, una plataforma educativa que ofrece cursos y tutoriales sobre criptomonedas, blockchain y desarrollo web.</p>
+            </article>
+            <article>
+                <h3>Bienvenido Sáez</h3>
+                <img src="/images/bienve.jpg" width="100" height="100">
+                <p>Bienvenido cuenta con más de 15 años de experiencia en el mundo de la educación, especialmente enseñando HTML, CSS, Javascript y Django..</p>
+            <p><a href="quienes_somos.html" target="_blank">Conoce al resto del equipo de ConquerBlocks</a></p>
+            </article>
+        </section>
+
+<!-- Listado con la informacion de los dos ultimos cursos con enlace a ver todos los cursos-->
+        <section id="infocursos">
+            <h2>Estos son los cursos que ofrecemos en ConquerBlocks</h2>
+            <ul>
+                <li><button><a href="curso1.html">Curso 1</a></button></a></li>
+                    <p>Master en desarrollo fullstack</p>
+                <li><button><a href="curso2.html">Curso 2</a></button></a></li>
+                    <p>Master en desarrollo Cripto</p>
+                    <button><a href="cursos.html"></a> Ver más cursos</button>
+        </section>
+
+<!-- Listado de las 2 ultimas noticias y enlace a ver toda las noticias-->
+<section id="infoblog">
+    <h2>Estos son las ultimas noticias en ConquerBlocks</h2>
+    <ul>
+        <li><button><a href="blog1.html">Noticia 1</a></button></a></li>
+            <p>Novedades en HTML5</p>
+        <li><button><a href="blog2.html">Noticia 2</a></button></a></li>
+            <p>Ultimas noticias en CSS</p>
+            <button><a href="blog.html"></a> Ver todas las noticias</button>
+</section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+    <section class="footer-info">
+            <p>&copy; 2024 ConquerBlocks. Todos los derechos reservados (Kigaldev).</p>
+            <nav>
+                <ul>
+                    <li><a href="#privacidad">Política de Privacidad</a></li>
+                    <li><a href="#terminos">Términos y Condiciones</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="social-media">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </section>
+    </footer>
+</body>
+</html>
