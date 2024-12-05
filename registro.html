@@ -35,3 +35,58 @@
             </ul>
         </nav>
     </header>
+    <body>
+        <main>
+            <form action="" method="POST" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Introduce tu información Personal</legend>
+                    
+                    <!-- Nombre Completo -->
+                    <div>
+                        <label for="nombre-completo">Nombre completo:</label>
+                        <input type="text" id="nombre-completo" name="nombre-completo" maxlength="100" required>
+                    </div>
+            
+                    <!-- Fecha de Nacimiento -->
+                    <div>
+                        <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+                        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+                    </div>
+            
+                    <!-- Email -->
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+            
+                    <!-- Dirección -->
+                    <div>
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" id="direccion" name="direccion" maxlength="200" required>
+                    </div>
+            
+                    <!-- Página Web -->
+                    <div>
+                        <label for="pagina-web">Página web:</label>
+                        <input type="url" id="pagina-web" name="pagina-web" placeholder="https://example.com">
+                    </div>
+            
+                    <!-- Adjuntar Fotografía -->
+                    <div>
+                        <label for="fotografia">Adjuntar fotografía:</label>
+                        <input type="file" id="fotografia" name="fotografia" accept="image/*">
+                    </div>
+            
+                    <!-- Biografía -->
+                    <div>
+                        <label for="biografia">Biografía:</label>
+                        <textarea id="biografia" name="biografia" rows="5" placeholder="Escribe algo sobre ti..." required></textarea>
+                    </div>
+                </fieldset>
+            
+                <!-- Botón de Envío -->
+                <button type="submit">Enviar</button>
+            </form>
+            
+        </main>
+    </body>
